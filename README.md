@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -14,3 +15,31 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+=======
+# ClimateX 🌦️
+
+ClimateX is a modern weather forecast web application built with React and Vite.  
+It provides real-time weather data using the OpenWeather API with a clean and responsive UI.
+
+## 🚀 Features
+- Real-time weather data
+- City-based search
+- Responsive design
+- Environment variable–secured API key
+- Fast build with Vite
+
+## 🛠️ Tech Stack
+- React
+- Vite
+- JavaScript
+- CSS
+- OpenWeather API
+
+## ⚙️ Installation & Setup
+
+```bash
+git clone https://github.com/YOUR_USERNAME/climatex-weather-forecast-web-app.git
+cd climatex-weather-forecast-web-app
+npm install
+npm run dev
+>>>>>>> c8a45bcd96e6e88baadec2b271ed1e85f867fc9f
