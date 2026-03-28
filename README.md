@@ -1,45 +1,61 @@
-<<<<<<< HEAD
-# React + Vite
+# 🌦️ ClimateX – Modern Weather Forecast App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ClimateX is a modern, responsive weather forecast web application built using React and Vite. It provides real-time weather data with a clean, glassmorphism UI and smooth experience across all devices.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
+👉 [https://your-vercel-link.vercel.app/](https://climatex-weather-forecast-web-app.vercel.app/)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📸 Preview
+<!-- Add screenshots here -->
+<!-- ![App Screenshot](your-image-link) -->
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# ClimateX 🌦️
+## ✨ Features
 
-ClimateX is a modern weather forecast web application built with React and Vite.  
-It provides real-time weather data using the OpenWeather API with a clean and responsive UI.
+- 🌍 Real-time weather data using API  
+- 🔍 City-based search functionality  
+- 📱 Fully responsive (mobile, tablet, desktop)  
+- 🌙 Dark mode support  
+- 🎨 Modern glassmorphism UI  
+- ⚡ Fast performance with Vite  
+- 📊 Weather details (temperature, humidity, wind, pressure)  
+- 🌅 Sunrise & sunset timing  
+- 📅 Forecast section  
 
-## 🚀 Features
-- Real-time weather data
-- City-based search
-- Responsive design
-- Environment variable–secured API key
-- Fast build with Vite
+---
 
 ## 🛠️ Tech Stack
-- React
-- Vite
-- JavaScript
-- CSS
-- OpenWeather API
+
+- React  
+- Vite  
+- JavaScript (ES6+)  
+- CSS3 (Flexbox + Grid)  
+- OpenWeather API  
+
+---
 
 ## ⚙️ Installation & Setup
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/climatex-weather-forecast-web-app.git
+git clone https://github.com/Koustav-Source/climatex-weather-forecast-web-app.git
 cd climatex-weather-forecast-web-app
 npm install
 npm run dev
->>>>>>> c8a45bcd96e6e88baadec2b271ed1e85f867fc9f
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome and appreciated!
+
+If you want to improve this project, follow these steps:
+
+1. Fork the repository  
+2. Create a new branch  
+   ```bash
+   git checkout -b feature/your-feature-name
