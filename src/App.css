@@ -314,8 +314,8 @@ body {
 /* META INFO */
 .meta {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 12px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
   margin-bottom: 20px;
 }
 
@@ -356,7 +356,7 @@ body {
 /* SUN TIMES */
 .sun-times {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 12px;
   margin-bottom: 24px;
 }
@@ -662,32 +662,36 @@ body {
 
 /* RESPONSIVE */
 @media (max-width: 500px) {
-  /* ... existing mobile styles ... */
 
-  /* NEW: Search buttons for mobile - prevents overflow */
   .search-form {
-    gap: 6px;          /* Reduced from 8px */
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    width: 100%;
+  }
+
+  .search-input {
+    flex: 1;
+    min-width: 0; /* 🔥 VERY IMPORTANT */
+    padding: 10px 12px;
+    font-size: 0.95rem;
   }
 
   .search-btn,
   .location-btn {
-    width: 42px;       /* Reduced from 48px */
-    height: 42px;      /* Reduced from 48px */
-    font-size: 1rem;   /* Reduced from 1.2rem */
-    flex-shrink: 0;    /* Prevents buttons from shrinking */
-  }
-
-  .search-input {
-    padding: 10px 12px;    /* Reduced from 14px 18px */
-    font-size: 0.95rem;    /* Reduced from 1rem */
+    width: 40px;
+    height: 40px;
+    font-size: 0.95rem;
+    flex-shrink: 0; /* prevent collapse */
   }
 }
 
 @media (min-width: 768px) {
   .weather-card {
-    max-width: 520px;
-    padding: 40px 36px;
-  }
+  width: 100%;
+  max-width: 480px;
+  overflow: hidden; /* 🔥 prevents child overflow */
+}
 
   .temperature {
     font-size: 5rem;
