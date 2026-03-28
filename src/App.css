@@ -671,8 +671,8 @@ body {
 
   .search-btn,
   .location-btn {
-    width: 42px;       /* Reduced from 48px */
-    height: 42px;      /* Reduced from 48px */
+    width: 40px;       /* Reduced from 48px */
+    height: 40px;      /* Reduced from 48px */
     font-size: 1rem;   /* Reduced from 1.2rem */
     flex-shrink: 0;    /* Prevents buttons from shrinking */
   }
