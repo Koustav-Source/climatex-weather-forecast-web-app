@@ -40,7 +40,10 @@ export default function App() {
 
   useEffect(() => {
     fetchData(city);
-  }, [fetchData, city]);
+    // We only want to refetch when unit changes.
+    // Manual searches and geolocation handle their own fetchData calls.
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [fetchData, unit]);
 
   useEffect(() => {
     localStorage.setItem("darkMode", darkMode);
