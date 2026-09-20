@@ -1,0 +1,6 @@
+{
+  "name": "ClimateX Weather Forecast",
+  "description": "A modern, responsive weather forecast web application built with React and Vite providing real-time weather data and forecasts.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
